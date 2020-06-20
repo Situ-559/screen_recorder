@@ -1,0 +1,275 @@
+Skip to content
+Search or jump to…
+
+
+  
+{
+  "name": "screen_recorder",
+  "productName": "screen_recorder",
+  "version": "1.0.0",
+  "description": "Screen recorder app",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "keywords": [],
+  "author": {
+    "name": "mrugankray",
+    "email": "mrugankray2@gmail.com"
+  },
+  "license": "MIT",
+  "config": {
+    "forge": {
+      "packagerConfig": {},
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel",
+          "config": {
+            "name": "hello_world"
+          }
+        },
+        {
+          "name": "@electron-forge/maker-zip",
+          "platforms": [
+            "darwin"
+          ]
+        },
+        {
+          "name": "@electron-forge/maker-deb",
+          "config": {}
+        },
+        {
+          "name": "@electron-forge/maker-rpm",
+          "config": {}
+        }
+      ]
+    }
+  },
+  "dependencies": {
+    "electron-compile": "^6.4.4",
+    "electron-squirrel-startup": "^1.0.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.51",
+    "@electron-forge/maker-deb": "^6.0.0-beta.51",
+    "@electron-forge/maker-rpm": "^6.0.0-beta.51",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.51",
+    "@electron-forge/maker-zip": "^6.0.0-beta.51",
+    "electron": "9.0.4",
+85
+          "config": {}
+86
+        },
+87
+        {
+88
+          "name": "@electron-forge/maker-rpm",
+89
+          "config": {}
+90
+        }
+91
+      ]
+92
+    }
+93
+  },
+94
+  "dependencies": {
+95
+    "electron-compile": "^6.4.4",
+96
+    "electron-squirrel-startup": "^1.0.0"
+97
+  },
+98
+  "devDependencies": {
+99
+    "@electron-forge/cli": "^6.0.0-beta.51",
+100
+    "@electron-forge/maker-deb": "^6.0.0-beta.51",
+101
+    "@electron-forge/maker-rpm": "^6.0.0-beta.51",
+102
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.51",
+103
+    "@electron-forge/maker-zip": "^6.0.0-beta.51",
+104
+    "electron": "9.0.4",
+105
+    "electron-prebuilt-compile": "8.2.0"
+106
+  }
+107
+}
+108
+​
+109
+​
+110
+​
+111
+@mrugankray mrugankray added Skip to content
+112
+Search or jump to…
+113
+​
+114
+Pull requests
+115
+Issues
+116
+Marketplace
+117
+Explore
+118
+ 
+119
+@Situ-559 
+120
+mrugankray
+121
+/
+122
+screen_recorder
+123
+0
+124
+00
+125
+ Code
+126
+ Issues 0
+127
+ Pull requests 0 Actions
+128
+ Projects 0
+129
+ Wiki
+130
+ Security 0
+131
+ Insights
+132
+screen_recorder/package_for_win.json
+133
+@mrugankray mrugankray added package_for_win.json for building apps for windows
+134
+fca3a33 5 days ago
+135
+60 lines (60 sloc)  1.45 KB
+136
+  
+137
+{
+138
+  "name": "screen_recorder",
+139
+  "productName": "screen_recorder",
+140
+  "version": "1.0.0",
+141
+  "description": "Screen recorder app",
+142
+  "main": "src/index.js",
+143
+  "scripts": {
+144
+    "start": "electron-forge start",
+145
+    "package": "electron-forge package",
+146
+    "make": "electron-forge make",
+147
+    "publish": "electron-forge publish",
+148
+    "lint": "echo \"No linting configured\""
+149
+  },
+150
+  "keywords": [],
+151
+  "author": {
+
+    "electron-prebuilt-compile": "8.2.0"
+  }
+}
+
+
+
+: "@electron-forge/maker-rpm",
+          "config": {}
+        }
+      ]
+    }
+  },
+  "dependencies": {
+    "electron-compile": "^6.4.4",
+    "electron-squirrel-startup": "^1.0.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.51",
+    "@electron-forge/maker-deb": "^6.0.0-beta.51",
+    "@electron-forge/maker-rpm": "^6.0.0-beta.51",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.51",
+    "@electron-forge/maker-zip": "^6.0.0-beta.51",
+    "electron": "9.0.4",
+    "electron-prebuilt-compile": "8.2.0"
+  }
+}
+
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "keywords": [],
+  "author": {
+    "name": "mrugankray",
+    "email": "mrugankray2@gmail.com"
+  },
+  "license": "MIT",
+  "config": {
+    "forge": {
+      "packagerConfig": {},
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel",
+          "config": {
+            "name": "hello_world"
+          }
+        },
+        {
+          "name": "@electron-forge/maker-zip",
+          "platforms": [
+            "darwin"
+          ]
+        },
+        {
+          "name": "@electron-forge/maker-deb",
+          "config": {}
+        },
+        {
+          "name": "@electron-forge/maker-rpm",
+          "config": {}
+        }
+      ]
+    }
+  },
+  "dependencies": {
+    "electron-compile": "^6.4.4",
+    "electron-squirrel-startup": "^1.0.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.51",
+    "@electron-forge/maker-deb": "^6.0.0-beta.51",
+    "@electron-forge/maker-rpm": "^6.0.0-beta.51",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.51",
+    "@electron-forge/maker-zip": "^6.0.0-beta.51",
+    "electron": "9.0.4",
+    "electron-prebuilt-compile": "8.2.0"
+  }
+}
+
